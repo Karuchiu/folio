@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: content;
+    align-items: center;
+    height: 100vh; /* Ensure the container takes up the full viewport height */
+    margin: 0; /* Remove default body margin */
+
+    background-color: #818584;
+}
+
+h1, p, ul, footer {
+    margin: 20px;
+}
+
+nav ul, .socials{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li, .socials li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.circular-image {
+    border: 2px solid #000;
+    border-radius: 50%;
+    display: block;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
