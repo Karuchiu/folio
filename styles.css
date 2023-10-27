@@ -41,3 +41,7 @@ nav ul li a {
     height: 300px;
     object-fit: cover;
 }
+
+footer ul li a {
+    color: #FFF; /* Replace #FF0000 with the color code you want */
+}
